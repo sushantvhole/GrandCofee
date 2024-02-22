@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8% 3%;
+    background-color: black;
+}
+
+nav>img{
+    width: 17vw;
+}
+
+nav>.links{
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+
+nav>.links>a{
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav>.links>a:hover{
+    color: rgb(228, 113, 71);
+}
+
+nav>.links>svg:hover{
+    fill:  rgb(228, 113, 71);
+}
+
+/* main */
+main{
+    position: relative;
+    background-image: url(./images/hero2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    padding: 10% 6%;
+}
+
+main>h1{
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 600;
+}
+
+main>h2{
+    font-size: 3.8rem;
+    color: black;
+    font-weight: 500;
+}
+
+main>p{
+    font-size: 1rem;
+    color: white;
+}
+
+main>button{
+    width: 12vw;
+    height: 7vh;
+    font-size: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+/* about us */
+
+.about-us{
+    padding: 5% 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-us>.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-us>.left>h2{
+    font-size: 2.5rem;
+    color: rgb(228, 113, 71);
+    font-weight: 800;
+}
+
+.about-us>.left>p{
+    font-size: 1rem;
+}
+
+
+.about-us>.left>button{
+    width: 12vw;
+    height: 7vh;
+    font-size: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.about-us>.right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us>.right>img{
+    width: 40vw;
+    height: 80vh;
+}
+
+
+/* Gallery */
+
+.Gallery{
+    padding: 1% 6% 5% 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Gallery>h2{
+    font-size: 2.5rem;
+    color: rgb(228, 113, 71);
+    font-weight: 800;
+}
+
+.Gallery>p{
+    font-size: 1.28rem;
+    text-align: center;
+}
+
+.Gallery>.gallery-images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Gallery>.gallery-images>img{
+    width: 27vw;
+    height: 40vh;
+}
+
+
+.Gallery>button{
+    width: 12vw;
+    height: 7vh;
+    font-size: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+/* services */
+.services{
+    background-image: url(./images/servicrs.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5% 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.services>h2{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 800;
+}
+
+.services>p{
+    font-size: 1.28rem;
+    color: white;
+}
+
+.services>.services-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.services>.services-center>.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 40vh;
+    background-color: rgb(228, 113, 71);
+    color: black;
+    padding: 2%;
+    gap: 20px;
+}
+
+
+
+.services>.services-center>.box>img{
+    width: 5vw;
+    height: 10vh;
+}
+
+.services>.services-center>.box>h2{
+    font-size: 2rem;
+    color: white;
+}
+
+.services>.services-center>.box>p{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.six{
+    padding: 5% 6%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.six>h2{
+    font-size: 2.5rem;
+    color: rgb(228, 113, 71);
+    font-weight: 800;
+}
+
+.six>p{
+    font-size: 1rem;
+}
+
+.six>.six-center{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.six>.six-center>.head{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.six>.six-center>.head>h2{
+    font-size: 1.5rem;
+    color: rgb(228, 113, 71);
+    font-weight: 800;
+}
+
+.six>.six-center>p{
+    font-size: 1rem;
+}
